@@ -6,6 +6,8 @@ import java.util.Arrays;
 public class Solution {
 
     //暴力法
+    //时间复杂度：O(N^2)
+    //空间复杂度：O(1)
     public static int[] twoSum(int[] nums, int target) {
         int length = nums.length;
         for (int i = 0; i < length; i++) {
