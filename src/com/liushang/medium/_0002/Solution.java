@@ -1,9 +1,15 @@
 package com.liushang.medium._0002;
 
+import com.liushang.structure.ListNode;
+
 //两数相加
 public class Solution {
 
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        return null;
+    }
+
     public static void main(String[] args) {
-        System.out.println("不要忘记，我不会是个笑话");
+        ListNode.print(ListNode.createTestData());
     }
 }
