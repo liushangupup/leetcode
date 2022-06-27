@@ -14,9 +14,9 @@ public class Solution1 {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for (int i = 0; i < length; i++) {
             if (hashMap.containsKey(target - nums[i])) {
-                return new int[]{i,hashMap.get(target-nums[i])};
+                return new int[]{i, hashMap.get(target - nums[i])};
             }
-            hashMap.put(nums[i],i);
+            hashMap.put(nums[i], i);
         }
         return new int[0];
     }
