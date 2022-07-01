@@ -28,6 +28,5 @@ public class TestStack {
         System.out.println(stack.peek());//输出：1
         System.out.println(stack.pop());//输出：1
         System.out.println(stack.isEmpty());//输出：true
-        Queue objects = new LinkedList<>();
     }
 }
