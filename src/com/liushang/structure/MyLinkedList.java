@@ -13,7 +13,7 @@ public class MyLinkedList implements Iterable {
 
             @Override
             public boolean hasNext() {
-                return node!=null;
+                return node != null;
             }
 
             @Override
