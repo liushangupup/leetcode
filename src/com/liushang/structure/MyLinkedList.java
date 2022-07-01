@@ -2,7 +2,7 @@ package com.liushang.structure;
 
 import java.util.Iterator;
 
-//手写链表
+//手写单向链表
 public class MyLinkedList implements Iterable {
 
     @Override
